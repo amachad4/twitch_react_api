@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #772ce8;
+}
+
+.logo a {
+    display: inline-block;
+    font-size: 2.25rem;
+    padding: 2rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo a:visited {
+    color: #FFF;
+}
+  
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+  
+.nav li {
+    font-size: 2.25rem;
+    margin-right: 2rem;
+}
+  
+.nav a {
+    text-decoration: none;
+    color: #FFF;
+}
+  
+.nav a:hover {
+    color: black;
+}
+
+.nav a:active,
+.nav a.active {
+    color: #FFF;
+    border-bottom: 3px solid white;
+}
+

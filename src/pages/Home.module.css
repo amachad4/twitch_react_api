@@ -1,0 +1,43 @@
+h2,
+h3,
+p {
+    text-align: center;
+    color: white;
+}
+
+.home {
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.home h2 {
+    font-size: 7rem;
+}
+
+.home h3 {
+    font-size: 5.5rem;
+}
+
+.home p{
+    font-size: 3.75rem;
+}
+
+@keyframes moveInLeft {
+    0% { /* start with 0 percent */
+      opacity: 0; /* invisable in the begining */
+      transform: translateX(-10rem); /* form left to right */
+    }
+  
+    80% {
+      transform: translateX(1rem); /* Causes bump */
+    }
+  
+    100% {
+      /* the final state */
+      opacity: 1; /* visable at the end */
+      transform: translateX(0); /* this will be the end point */
+    }
+  }
